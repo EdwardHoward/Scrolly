@@ -65,7 +65,7 @@ var Scrolly = (function () {
             }
 
             if (typeof settings.onScroll !== 'function') {
-                console.error("Scrolly: 'onResize' needs to be a Function");
+                console.error("Scrolly: 'onScroll' needs to be a Function");
                 error = true;
             }
             if (error) return;
